@@ -1,0 +1,4 @@
+import string, re, datetime, math, random, os, multiprocessing, subprocess, socket, email, json, doctest, unittest, pdb, argparse, sys
+
+mod=input("what is the module you want help with: ")
+help(mod)
