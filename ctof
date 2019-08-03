@@ -1,9 +1,9 @@
 ###########################################
-#CTOF CONVERTER ###########################
+#Celcius to farenheit converter############
 ###########################################
 
-print("what temp c would you like to convert to F?")
+print("what temp celcius\xb0 would you like to convert to Farenheit\xb0?")
 tmp = input()
 temp = float(tmp) * 9 / 5 + 32
 
-print(f"that is equal to {temp} tempF ... in America.. and a few others")
+print(f"that is equal to {temp} \xb0 Farenheit")
