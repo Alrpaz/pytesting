@@ -14,29 +14,6 @@ type ls - this will list the contents of the directory powershell is operating o
 PS C:\Users\vulca> ls
 
 
-    Directory: C:\Users\vulca
-
-
-Mode                LastWriteTime         Length Name
-----                -------------         ------ ----
-d-----        8/11/2019   1:36 PM                .idlerc
-d-----         7/4/2019  11:01 AM                .Origin
-d-----         7/4/2019  11:01 AM                .QtWebEngineProcess
-d-r---        7/15/2019  12:13 AM                3D Objects
-d-----        7/17/2019   6:48 PM                ansel
-d-r---        7/15/2019  12:13 AM                Contacts
-d-r---        8/11/2019   1:32 PM                Desktop
-d-r---        7/25/2019   4:23 PM                Documents
-d-r---         8/5/2019   4:42 PM                Downloads
-d-r---        7/15/2019  12:13 AM                Favorites
-d-r---        7/15/2019  12:13 AM                Links
-d-r---        7/15/2019  12:13 AM                Music
-d-r---        8/15/2019   7:58 PM                OneDrive
-d-r---        7/15/2019  12:13 AM                Pictures
-d-r---        7/15/2019  12:13 AM                Saved Games
-d-r---        7/15/2019  12:13 AM                Searches
-d-r---        7/15/2019  12:13 AM                Videos
-
 IF you created a folder for your new files you will need to change directory to this folder now
 
 First we will need to change to Desktop
@@ -50,24 +27,13 @@ PS C:\Users\vulca\Desktop>
 PS C:\Users\vulca\Desktop> ls
 
 
-    Directory: C:\Users\vulca\Desktop
-
-
-Mode                LastWriteTime         Length Name
-----                -------------         ------ ----
-d-----        8/11/2019   1:34 PM                git
--a----         7/3/2019   8:27 PM            989 Core Temp.lnk
--a----         7/3/2019   8:32 PM           1316 CrystalDiskInfo Kurei Kei Edition.lnk
--a----         7/3/2019   8:30 PM           1848 CrystalDiskMark 6.lnk
--a----         7/3/2019   8:20 PM           1446 Microsoft Edge.lnk
--a----         7/4/2019  11:05 AM           1159 MSI Afterburner.lnk
--a----         7/4/2019  10:55 AM           1036 TechPowerUp GPU-Z.lnk
--a----        7/17/2019   6:41 PM           1248 WarThunder.lnk
-
 i have re listed my files, here my folder is called git. i change to git. 
 
 inside git is only ctof.py
 
-i type python3 ctof.py ( you can type python3 c tab and it will tab to complete)
+i type python3 ctof.py ( you can type python3 c tab and it will tab to complete) in powershell cmd line .. this should run as a python script and will prompt you with the question you see in the code if you open it up ( right click and "edit with IDLE") Feel free to make any changes to the wording. I would like to find a way to put it on a repeating loop so i dont have to re run the line of code everytime even. 
+HOWEVER - after you run this once if you keep powershell or cmd line open and press the up arrow on keyboard it will return your last command.. in our case python3 ctof.py 
+
+
 
 
