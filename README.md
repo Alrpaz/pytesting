@@ -1,5 +1,13 @@
 # pytesting
 python3
+before you do anything open powershell and just type the word python. this will either pop up a cmd line or bring you to the store to install the latest version. You need to make sure you have version 3 or later.
+
+if you type python and get stuck in the shell type ctrl + c then quit()
+
+The other way to open the file would be to right click and go to edit with IDLE , then go to run in the corner box and go to Run Module. 
+I prefer just leaving powershell open so i can re run as needed to check temps and in  the case any other code runs need done. Also lots of fun tools in pwrshell.
+
+
 
 Written in pyton v3.7+ -- be sure to download the latest code/binaries : https://www.python.org/downloads/
 
