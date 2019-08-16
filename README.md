@@ -34,6 +34,9 @@ inside git is only ctof.py
 i type python3 ctof.py ( you can type python3 c tab and it will tab to complete) in powershell cmd line .. this should run as a python script and will prompt you with the question you see in the code if you open it up ( right click and "edit with IDLE") Feel free to make any changes to the wording. I would like to find a way to put it on a repeating loop so i dont have to re run the line of code everytime even. 
 HOWEVER - after you run this once if you keep powershell or cmd line open and press the up arrow on keyboard it will return your last command.. in our case python3 ctof.py 
 
+Hint:
 
+for playing with the code the \xb0 is a callsign , \ omits this from the code line and xb0 calls for the degree symbol in python. move it around, remove it , play with the code. its basic but you can see how a basic python code runs from this, it can get extremely complex quick and we could turn this into hundreds of line of code for a task. If you get curious check out my other python branches. 
+  
 
 
