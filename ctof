@@ -1,9 +1,17 @@
+
 ###########################################
 #Celcius to farenheit converter############
 ###########################################
 
-print("what temp celcius\xb0 would you like to convert to Farenheit\xb0?")
+print("what \xb0 C would you like to convert to \xb0 F?")
 tmp = input()
 temp = float(tmp) * 9 / 5 + 32
 
-print(f"that is equal to {temp} \xb0 Farenheit")
+print(f"that is equal to {temp} \xb0F")
+
+
+
+
+# Change Log #
+
+# 08/20/2019 - updates to wording and \xb0 settings (\xb0 = degrees symbol) - tested different usage.
