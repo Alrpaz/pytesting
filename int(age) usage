@@ -1,0 +1,15 @@
+#!/usr/bin/env Python3
+
+# ask for age
+# ages between 18-21 wear bands
+# 21 plus drink up smoke up
+# 18 under too young
+
+age = input("How old are you? ")
+
+if int(age) >= 18 and int(age) < 21:
+	print("you can enter but need a band to drankk")
+elif int(age) >= 21:
+	print(" Your good to rage ")
+else:
+	print(" Sorry lil guy, too young :( ")
