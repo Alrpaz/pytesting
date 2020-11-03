@@ -1,0 +1,44 @@
+import random
+
+rand_num = random.randint(0,2)
+if rand_num == 0:
+    computer = "rock"
+elif rand_num == 1:
+    computer = "paper"
+else:
+    computer = "scissors"
+print(computer)
+
+
+
+print("rock....")
+print("paper....")
+print("scissors...")
+print("ROCK __ PAPER __ SCISSORS")
+
+player1 = input("Player 1, make your move!")
+print(" **** NO CHEATING **** " * 50)
+player2 = computer
+print(computer)
+
+if player1 == player2:
+    print("Its a tie!")
+elif player1 == "rock":
+    if player2 == "scissors":
+            print("human wins")
+    elif player2 == "paper":
+            print("computer wins")
+elif player1 == "paper":
+    if player2 == "rock":
+        print("human wins!")
+    elif player2 == "scissors":
+        print("computer wins")
+elif player1 == "scissors":
+    if player2 == "paper":
+        print("human wins")
+    elif player2 == "rock":
+        print("computer wins")
+
+else:
+    print("Something went wrong")
+
