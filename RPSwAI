@@ -1,3 +1,6 @@
+## run in python3 or with the #!/env/usr/var Python3 bangbang!!
+
+
 import random
 
 rand_num = random.randint(0,2)
