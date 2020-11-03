@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+class Duck:
+        def quack(self):
+                print('Quaackkk')
+
+        def walk(self):
+                print('Walks like a duck')
+def main():
+        Donald = Duck()
+        Donald.quack()
+        Donald.walk()
+
+if __name__ == '__main__': main()
