@@ -1,0 +1,65 @@
+## run in python3 or with the #!/env/usr/var Python3 bangbang!!
+
+
+from random import randint
+
+player_wins = 0
+computer_wins = 0
+
+while player_wins < 2 and computer_wins < 2:
+
+
+    player1 = input("(Enter your choice): ").lower()
+    rand_num = randint(0,2)
+
+    if rand_num == 0:
+        computer = "rock"
+    elif rand_num == 1:
+        computer = "paper"
+    else:
+        computer = "scissors"
+
+
+
+
+    print("rock....")
+    print("paper....")
+    print("scissors...")
+    print("ROCK __ PAPER __ SCISSORS")
+
+
+
+    print("player score:", player_wins, "computer wins: ", computer_wins)
+
+    player2 = computer
+
+    print("Computer played: ")
+    print(computer)
+    if player1 == player2:
+        print("Its a tie!")
+    elif player1 == "rock":
+        if player2 == "scissors":
+                print("human wins")
+                player_wins += 1
+        elif player2 == "paper":
+                print("computer wins")
+                computer_wins += 1
+    elif player1 == "paper":
+        if player2 == "rock":
+            print("human wins!")
+            player_wins += 1
+        elif player2 == "scissors":
+                print("computer wins")
+                computer_wins += 1
+    elif player1 == "scissors":
+        if player2 == "paper":
+            print("human wins")
+            player_wins += 1
+        elif player2 == "rock":
+            print("computer wins")
+            computer_wins += 1
+
+    else:
+            print("Something went wrong")
+print(f"human score: {player_wins} ")
+print(f"computer score: {computer_wins}")
