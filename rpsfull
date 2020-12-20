@@ -1,12 +1,19 @@
-## run in python3 or with the #!/env/usr/var Python3 bangbang!!
+
+### FULL VERSION , SMALL TWEAKS NEEDED FOR GUI ### 
+
+#!/usr/bin/env/Python 3
 
 
 from random import randint
 
 player_wins = 0
 computer_wins = 0
+games = 2
 
-while player_wins < 2 and computer_wins < 2:
+
+#WHILE LOOP EDITION , can edit games num
+
+while player_wins < games and computer_wins < games:
 
 
     player1 = input("(Enter your choice): ").lower()
@@ -20,7 +27,10 @@ while player_wins < 2 and computer_wins < 2:
         computer = "scissors"
 
 
-
+    print("**SCORE**")
+    print("%s = player count" % (player_wins))
+    print("%s = AI count" % (computer_wins))
+#SCOREBOARD IMPROVISED ABOVE TO PLAY EACH ROUND
 
     print("rock....")
     print("paper....")
@@ -60,6 +70,7 @@ while player_wins < 2 and computer_wins < 2:
             computer_wins += 1
 
     else:
+
             print("Something went wrong")
 print(f"human score: {player_wins} ")
 print(f"computer score: {computer_wins}")
