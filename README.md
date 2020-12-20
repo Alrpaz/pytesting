@@ -2,7 +2,7 @@
 python3
 
 
-Python learning repository - using msoft vscode studio -- modern python bootcamps.
+Python learning repository - using msoft vscode studio or bash -- modern python bootcamps.
 
 will add fun facts here like \xb0 = temps noted in other file. 
 
